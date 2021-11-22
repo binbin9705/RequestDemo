@@ -5,7 +5,7 @@ import unittest
 import requests
 from method import Runmain
 class testcase1(unittest.TestCase):
-    @classmethod#必须声明的修饰123
+    @classmethod#必须声明的修饰
     def setUpClass(cls):
         pass
     @classmethod
